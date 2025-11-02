@@ -162,9 +162,7 @@ Reduce concurrent operations:
 THREADS = 50  # Instead of 100
 ```
 
-## 📚 Documentation
 
-For detailed documentation, see: [RPC_MONITORING.md](../../docs/RPC_MONITORING.md)
 
 ## 🤝 Contributing
 
