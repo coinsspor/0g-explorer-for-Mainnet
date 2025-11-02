@@ -625,29 +625,7 @@ const { data } = useQuery(['rpc-data'], getRPCData, {
 
 ---
 
-## 🔮 Future Enhancements
 
-### Planned Features
-
-**Q1 2025:**
-- [ ] WebSocket support for real-time updates
-- [ ] RPC health scoring algorithm
-- [ ] Geographic location detection
-- [ ] Response time trends
-
-**Q2 2025:**
-- [ ] Machine learning for RPC prediction
-- [ ] Automatic blacklist for bad RPCs
-- [ ] Load balancing optimization
-- [ ] Multi-chain support
-
-**Q3 2025:**
-- [ ] Community RPC submissions
-- [ ] RPC operator dashboard
-- [ ] SLA monitoring
-- [ ] Uptime guarantees
-
----
 
 ## 📞 Support
 
