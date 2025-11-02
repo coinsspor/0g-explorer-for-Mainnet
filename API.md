@@ -1072,5 +1072,5 @@ For API support and questions:
 ---
 
 **API Version:** 2.0.0  
-**Last Updated:** November 2024  
+
 **Base URL:** https://0g-explorer.com/api
