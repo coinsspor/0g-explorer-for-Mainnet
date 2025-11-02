@@ -247,6 +247,12 @@ See full roadmap in [ROADMAP.md](./ROADMAP.md)
 **3. Real-time Monitoring**
 - Live TPS tracking
 - Instant block updates
+- **Automated RPC discovery system**
+  - Python-based aggressive scanner
+  - Deep peer discovery (5 levels)
+  - Tests 60+ ports per IP
+  - Hourly updates via cron
+  - Finds 20-50 RPCs automatically
 - RPC health monitoring with auto-failover
 - Validator uptime tracking
 - Network statistics dashboard

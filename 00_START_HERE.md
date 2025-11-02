@@ -16,6 +16,7 @@ Tüm GitHub dokümantasyonunuz hazır! İşte oluşturduğumuz dosyalar ve kulla
 - Mimari diagram
 - Quick start talimatları
 - Smart contract adresleri (verified)
+- RPC monitoring sistemi
 - 0G WaveHack uyumluluğu
 
 **GitHub'a eklerken:** Repository'nizin root dizinine koyun
@@ -61,7 +62,26 @@ Tüm GitHub dokümantasyonunuz hazır! İşte oluşturduğumuz dosyalar ve kulla
 
 ---
 
-### 5️⃣ **ROADMAP.md** (Gelecek Planları)
+### 5️⃣ **RPC_MONITORING.md** (RPC Scanner Dokümantasyonu) 🆕
+**Kullanım:** Otomatik RPC keşif sistemi
+- Python scanner açıklaması
+- Cron job setup
+- Aggressive scanning strategy
+- Peer discovery nasıl çalışır
+- Troubleshooting guide
+- Output formatları
+
+**Python Script'leri:**
+- `aggressive_scanner.py` - Ana scanner
+- `hourly_update.py` - Otomatik güncelleme
+
+**GitHub'a eklerken:** 
+- Dokümantasyon: `/docs` klasörüne
+- Script'ler: `/scripts` veya `/tools/rpc-scanner` klasörüne
+
+---
+
+### 6️⃣ **ROADMAP.md** (Gelecek Planları)
 **Kullanım:** Future development plans
 - Phase-by-phase development planı
 - Mobile responsive (Q1 2025) ⭐
@@ -73,7 +93,19 @@ Tüm GitHub dokümantasyonunuz hazır! İşte oluşturduğumuz dosyalar ve kulla
 
 ---
 
-### 6️⃣ **SUBMISSION.md** (WaveHack Başvuru Özeti)
+### 6️⃣ **ROADMAP.md** (Gelecek Planları)
+**Kullanım:** Future development plans
+- Phase-by-phase development planı
+- Mobile responsive (Q1 2025) ⭐
+- Native mobile apps (Q2 2025)
+- Advanced features
+- Community feedback tracking
+
+**GitHub'a eklerken:** Root dizine
+
+---
+
+### 7️⃣ **SUBMISSION.md** (WaveHack Başvuru Özeti)
 **Kullanım:** 0G WaveHack başvuru formu için özet
 - Tüm judging criteria karşılanması
 - Contract adresleri
@@ -85,7 +117,7 @@ Tüm GitHub dokümantasyonunuz hazır! İşte oluşturduğumuz dosyalar ve kulla
 
 ---
 
-### 7️⃣ **TWITTER_THREAD.md** (Twitter Thread Şablonu)
+### 8️⃣ **TWITTER_THREAD.md** (Twitter Thread Şablonu)
 **Kullanım:** Social media posting için hazır thread
 - 15 tweet'lik complete thread
 - **@0G_Builders ve @akindo_io tag'leri dahil**
@@ -95,6 +127,24 @@ Tüm GitHub dokümantasyonunuz hazır! İşte oluşturduğumuz dosyalar ve kulla
 - Posting strategy ve timing önerileri
 
 **Kullanım:** Kopyala-yapıştır yapıp Twitter'da paylaş!
+
+---
+
+### 🐍 **Python Scripts** (RPC Scanner)
+
+**aggressive_scanner.py:**
+- Otomatik RPC keşfi
+- 60+ port taraması
+- 5-level deep peer discovery
+- 100 thread concurrent scanning
+
+**hourly_update.py:**
+- Cron job script
+- Otomatik saatlik güncelleme
+- JSON formatında export
+- Web'e deploy
+
+**GitHub'a eklerken:** `/scripts/rpc-scanner/` veya `/tools/` klasörüne
 
 ---
 
@@ -110,6 +160,7 @@ Tüm GitHub dokümantasyonunuz hazır! İşte oluşturduğumuz dosyalar ve kulla
 │   ├── ARCHITECTURE.md
 │   ├── SETUP.md
 │   ├── API.md
+│   ├── RPC_MONITORING.md
 │   └── ROADMAP.md
 │
 ├── frontend/                 🎨 Frontend kodu
@@ -127,12 +178,16 @@ Tüm GitHub dokümantasyonunuz hazır! İşte oluşturduğumuz dosyalar ve kulla
 │   ├── token-explorer/
 │   └── storage-api/
 │
-├── nginx/                    🌐 NGINX config
-│   └── 0g-explorer.conf
+├── scripts/                  🔧 Utility scripts
+│   ├── rpc-scanner/
+│   │   ├── aggressive_scanner.py
+│   │   ├── hourly_update.py
+│   │   └── README.md
+│   ├── install-all.sh
+│   └── deploy.sh
 │
-└── scripts/                  🔧 Utility scripts
-    ├── install-all.sh
-    └── deploy.sh
+└── nginx/                    🌐 NGINX config
+    └── 0g-explorer.conf
 ```
 
 ---

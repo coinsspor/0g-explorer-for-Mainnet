@@ -92,6 +92,11 @@
 ### 🛠️ Advanced Tools
 
 - **RPC Health Monitoring** - Multi-endpoint health checks with auto-rotation
+  - Automated RPC discovery via Python scanner
+  - Hourly updates via cron job
+  - Deep peer discovery (5 levels)
+  - Tests 60+ ports per IP
+  - Real-time latency monitoring
 - **Contract Checker** - Verify and analyze smart contracts
 - **Contract Deployment** - Deploy and interact with contracts
 - **Token Explorer** - ERC-20 token analytics and tracking
@@ -281,6 +286,7 @@ For detailed setup instructions, see [SETUP.md](./SETUP.md)
 - **[ARCHITECTURE.md](./ARCHITECTURE.md)** - Detailed system architecture and design decisions
 - **[SETUP.md](./SETUP.md)** - Complete installation and configuration guide
 - **[API.md](./API.md)** - API endpoints documentation
+- **[RPC_MONITORING.md](./RPC_MONITORING.md)** - Automated RPC discovery and monitoring system
 - **[DEPLOYMENT.md](./DEPLOYMENT.md)** - Production deployment guide
 - **[ROADMAP.md](./ROADMAP.md)** - Future development plans
 
